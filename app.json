@@ -1,22 +1,22 @@
 {
 	"name": "Download everything",
 	"description": "Download everything",
-	"repository": "https://github.com/moeik/Heroku_aria2",
+	"repository": "https://github.com/Seeger0216/download_everything",
 	"keywords": ["aria2"],
 	"env": {
 		"HEROKU_APP_NAME": {
-			"description": "填写你的 \"App name\"，保证和上面一样"
+			"description": "填写 \"App name\""
 		},
 		"ARIA2C_SECRET": {
-			"description": "填写一个后台密码",
+			"description": "后台密码",
 			"value": "password"
 		},
 		"RCLONE_CONFIG": {
-			"description": "每一行配置后面用\"\\n\"替换换行符",
+			"description": "Rclone配置，后面用\"\\n\"替换换行符",
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
-			"description": "填写一个OneDrive上传路径，如：/update",
+			"description": "OneDrive上传路径，如：/update",
 			"required": false
 		}
 	},
