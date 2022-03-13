@@ -1,0 +1,9 @@
+services:
+  oktetoaria2:
+    build: .
+    shm_size: 2.6gb
+    ports:
+      - "80:80"
+      - "443:443"
+      - "54321:54321"
+      - "6666:6666"
